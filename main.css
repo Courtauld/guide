@@ -12,3 +12,10 @@ html {font-size: 16pt; padding:1rem;}
 }
 
 main {max-width: 48rem;}
+
+.home {display:flex; flex-direction: column;}
+#news, #guide-nav {flex: 1;}
+
+@media (min-width: 48rem) {
+	.home {flex-direction: row;}
+}
