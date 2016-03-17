@@ -15,6 +15,11 @@ layout: default
 				<li>Profiles</li>
 				<li>Media</li>
 				<li>Publishing</li>
+        {% for my_page in site.pages %}
+          {% if my_page.title %}
+          <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+          {% endif %}
+        {% endfor %}
 			</ul>
 		</nav>
 	</section>
