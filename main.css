@@ -10,3 +10,5 @@ html {font-size: 16pt; padding:1rem;}
 	display:flex;
 	flex-direction: row;
 }
+
+main {max-width: 48rem;}
