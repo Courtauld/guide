@@ -1,8 +1,6 @@
 ---
 ---
 
-{% include reset.css %}
-
 * {box-sizing: border-box;}
 
 html {font-size: 16pt; padding:1rem;}
