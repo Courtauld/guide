@@ -11,7 +11,7 @@ email: website@courtauld.ac.uk
 description: > # this means to ignore newlines until "baseurl:"
   This website is the online user guide for people editing The Courtauld's WordPress website.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "jclwilson.github.io/" # the base hostname & protocol for your site
+url: "jclwilson.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
