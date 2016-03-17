@@ -1,5 +1,7 @@
 # courtauld-guide-jk
 
-This guide was originally written by Jacob Charles Wilson (@jclwilson).
+This guide was originally written by @jclwilson.
 
-The guide is stored on Github and hosted via Github Pages.
+This guide is rendered using Jekyll, with no extra plugins.
+
+This guide is stored on Github and hosted via Github Pages.
