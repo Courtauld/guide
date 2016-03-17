@@ -1,5 +1,4 @@
----
----
+# courtauld-guide-jk
 
 This guide was originally written by Jacob Charles Wilson (@jclwilson).
 
