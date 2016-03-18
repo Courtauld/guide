@@ -13,9 +13,9 @@ html {font-size: 16pt; padding:1rem;}
 
 main {max-width: 48rem;}
 
-.home, .site-footer {display:flex; flex-direction: column;}
+main, .site-footer {display:flex; flex-direction: column;}
 #news, #guide-nav, .footer-col {flex: 1;}
 
 @media (min-width: 48rem) {
-	.home, .site-footer {flex-direction: row;}
+	main, .site-footer {flex-direction: row;}
 }
