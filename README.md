@@ -1,4 +1,4 @@
-# courtauld-guide-jk
+# courtauld/guide
 
 This guide was originally written by @jclwilson
 
