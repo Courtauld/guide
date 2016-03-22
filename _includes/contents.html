@@ -4,6 +4,6 @@
         {% for collection in site.collections %}
             <li><a href="{{ collection.label | prepend: "/" | prepend: site.baseurl | prepend: site.url }}">{{ collection.label }}</a></li>
         {% endfor %}
-        <li><a class="collection-link" href="{{ site.baseurl | prepend: site.url }}/glossary.md">Glossary</a></li>
+        <li><a class="page-link" href="{{ site.baseurl | prepend: site.url }}/glossary.md">Glossary</a></li>
     </ul>
 </nav>
