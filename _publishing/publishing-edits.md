@@ -1,6 +1,4 @@
 ---
-layout: page
-url: /publishing-edits/
 title: Saving and Publishing Edits
 ---
 # Saving, Publishing, and Deleting

@@ -1,4 +1,5 @@
 ---
+title: Visual Guide to News Posts
 ---
-# Visual Guide to News Posts Editing
 
+The screenshot above shows a typical **News** post.

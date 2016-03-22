@@ -1,4 +1,5 @@
 ---
+title: Editing an Event
 ---
 
 The editing page for an Event is very similar to that for a normal Page.

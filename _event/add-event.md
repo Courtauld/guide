@@ -1,2 +1,3 @@
 ---
+title: Adding an Event
 ---

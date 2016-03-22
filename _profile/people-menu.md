@@ -1,4 +1,6 @@
-# The People Menu
+---
+title: The People Menu
+---
 
 There are two ways to get to the profile you want to edit.
 

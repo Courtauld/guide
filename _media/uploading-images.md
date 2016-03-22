@@ -1,6 +1,6 @@
 ---
+title: Uploading Images
 ---
-# Uploading Images
 
 If there definitely isn't a copy of the image,
 1. Click the Upload Files tab, to the left of Media Library.

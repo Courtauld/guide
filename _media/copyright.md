@@ -1,7 +1,5 @@
 ---
-layout: page
 title: Copyright and Licensing
-permalink: /copyright/
 ---
 
 - Only use images that have been signed off by marketing.

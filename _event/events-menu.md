@@ -1,7 +1,5 @@
 ---
 title: The Events Menu
-layout: page
-permalink: /events-menu
 ---
 
 You can search all the Events by clicking Events on the left-hand menu. This page allows you to sort and search all events, past/future, published/unpublished, on the website.

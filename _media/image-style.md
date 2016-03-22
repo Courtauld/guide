@@ -1,7 +1,6 @@
 ---
+title: Image Styles
 ---
-# Image Styles
-
 ## Image Formats
 
 Images **must** be one of the following formats:

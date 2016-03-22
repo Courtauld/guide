@@ -1,4 +1,6 @@
-# Editing People Profiles
+---
+title: Editing People Profiles
+---
 
 1. In the Title field, put the person’s chosen name.
 ..- Their chosen name could be their first and last name, or first, middle, and last.

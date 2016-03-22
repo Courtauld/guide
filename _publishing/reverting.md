@@ -1,6 +1,4 @@
 ---
-layout: default
-url: /reverting-deleting/
 title: Reverting and Deleting edits
 ---
 
