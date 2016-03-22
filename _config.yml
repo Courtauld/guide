@@ -23,14 +23,6 @@ markdown: kramdown
 
 # Collections
 collections:
-  event:
-    output: true
-    permalink: /event/:path/
-    title: event
-  media:
-    output: true
-    permalink: /media/:path/
-    title: media
   navigation:
     output: true
     permalink: /navigation/:path/
@@ -43,10 +35,18 @@ collections:
     output: true
     permalink: /page/:path/
     title: page
+  event:
+    output: true
+    permalink: /event/:path/
+    title: event
   profile:
     output: true
     permalink: /profile/:path/
     title: profile
+  media:
+    output: true
+    permalink: /media/:path/
+    title: media
   publishing:
     output: true
     permalink: /publishing/:path/
