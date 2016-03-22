@@ -1,4 +1,7 @@
 ---
+title: Logging  into the Website
+permalink: /login
+layout: page
 ---
 # Logging In
 
