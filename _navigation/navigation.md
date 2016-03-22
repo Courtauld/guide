@@ -1,6 +1,8 @@
 ---
+title: Navigating the Website
+permalink: /navigation
+layout: page
 ---
-# Navigating the website
 
 The menu down the left hand site is the main way to navigate the website.
 

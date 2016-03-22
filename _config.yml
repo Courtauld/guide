@@ -29,8 +29,8 @@ collections:
     title: navigation
   news:
     output: true
-    permalink: /:title/:path/
     title: news
+    permalink: /:title/:path/
   page:
     output: true
     permalink: /:title/:path/
