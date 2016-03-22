@@ -15,5 +15,5 @@ main {max-width: 48rem;}
 #site-header div, #news, #guide-nav, .footer-col {flex: 1;}
 
 @media (min-width: 48rem) {
-	#site-header, main, .site-footer {flex-direction: row;}
+	#site-header, .site-footer {flex-direction: row;}
 }
