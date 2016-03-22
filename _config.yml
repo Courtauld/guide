@@ -25,6 +25,7 @@ markdown: kramdown
 collections:
   navigation:
     output: true
+    permalink: /:title/
   news:
     output: true
   page:
