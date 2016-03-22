@@ -25,22 +25,15 @@ markdown: kramdown
 collections:
   navigation:
     output: true
-    title: navigation
   news:
     output: true
-    title: news
   page:
     output: true
-    title: page
   event:
     output: true
-    title: event
   profile:
     output: true
-    title: profile
   media:
     output: true
-    title: media
   publishing:
     output: true
-    title: publishing
