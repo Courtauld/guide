@@ -37,6 +37,5 @@ defaults:
   -
     scope:
       path: ""
-      type: "navigation"
     values:
       layout: "default"
