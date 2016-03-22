@@ -20,10 +20,17 @@ markdown: kramdown
 
 # Collections
 collections:
-- event
-- media
-- navigation
-- news
-- page
-- profile
-- publishing
+  event
+    output: true
+  media
+    output: true
+  navigation
+    output: true
+  news
+    output: true
+  page
+    output: true
+  profile
+    output: true
+  publishing
+    output: true

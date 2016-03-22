@@ -13,15 +13,17 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/guides" # the subpath of your site, e.g. /blog
 url: "http://courtauld.github.io" # the base hostname & protocol for your site
 
+permalink: pretty
+
 # Build settings
 markdown: kramdown
 
 # Collections
 collections:
-- event
-- media
-- navigation
-- news
-- page
-- profile
-- publishing
+  event
+  media
+  navigation
+  news
+  page
+  profile
+  publishing
