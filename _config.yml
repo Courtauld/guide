@@ -15,7 +15,7 @@ markdown: kramdown
 
 # Exclude from build
 
-exclude: posts
+exclude: [posts]
 
 # Collections
 collections:
