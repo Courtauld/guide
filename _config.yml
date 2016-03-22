@@ -20,22 +20,23 @@ markdown: kramdown
 collections:
   navigation:
     output: true
-    layout: page
   news:
     output: true
-    layout: page
   page:
     output: true
-    layout: page
   event:
     output: true
-    layout: page
   profile:
     output: true
-    layout: page
   media:
     output: true
-    layout: page
   publishing:
     output: true
-    layout: page
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "navigation"
+    values:
+      layout: "default"
