@@ -24,30 +24,30 @@ markdown: kramdown
 # Collections
 collections:
   navigation:
-    output: false
-    permalink: /:title/:path/
+    output: true
+    permalink: /:path/
     title: navigation
   news:
     output: true
     title: news
-    permalink: /:title/:path/
+    permalink: /:path/
   page:
     output: true
-    permalink: /:title/:path/
+    permalink: /:path/
     title: page
   event:
     output: true
-    permalink: /:title/:path/
+    permalink: /:path/
     title: event
   profile:
     output: true
-    permalink: /:title/:path/
+    permalink: /:path/
     title: profile
   media:
     output: true
-    permalink: /:title/:path/
+    permalink: /:path/
     title: media
   publishing:
     output: true
-    permalink: /:title/:path/
+    permalink: /:path/
     title: publishing
