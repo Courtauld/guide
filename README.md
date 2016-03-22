@@ -14,7 +14,7 @@ The website version of this guide is located at [courtauld.github.io/guide](http
 
 The site is organised around the use of *collections*, these are used in Jekyll for articles which share some relation, but not that of date or time.
 
-** By contrast, *posts* are related by their publication date, and *pages* have no relation whatsoever.**
+**By contrast, *posts* are related by their publication date, and *pages* have no relation whatsoever.**
 
 The articles here are grouped by *theme*.
 
