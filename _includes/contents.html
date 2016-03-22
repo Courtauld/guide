@@ -1,11 +1,9 @@
-<section id="guide-nav" role="navigation">
-		<h1>Contents</h1>
-		<nav>
-			<ul>
+<nav id="guide-nav" role="navigation">
+    <h1>Contents</h1>
+	<ul>
         {% for collection in site.collections %}
-          <li><a class="collection-link" href="{{ collection.directory }}">{{ collection.label }}</a></li>
+            <li><a class="collection-link" href="{{ collection.directory }}">{{ collection.label }}</a></li>
         {% endfor %}
-                <li><a class="collection-link" href="/glossary">Glossary</a></li>
-			</ul>
-		</nav>
-	</section>
+        <li><a class="collection-link" href="/glossary">Glossary</a></li>
+    </ul>
+</nav>
