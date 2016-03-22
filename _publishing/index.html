@@ -1,1 +1,14 @@
-<h1>Hello</h1>
+---
+layout: default
+---
+
+<h1>{{ collection.label }}</h1>
+
+{% for article in site.publishing %}
+
+    <article>
+        <h2>{{ article.title }}</h2>
+        {{ article.content }}
+    </article>
+
+{% endfor %}
