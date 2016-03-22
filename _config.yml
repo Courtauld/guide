@@ -26,21 +26,28 @@ collections:
   event:
     output: true
     permalink: /event/:path/
+    title: event
   media:
     output: true
     permalink: /media/:path/
+    title: media
   navigation:
     output: true
     permalink: /navigation/:path/
+    title: navigation
   news:
     output: true
     permalink: /news/:path/
+    title: news
   page:
     output: true
     permalink: /page/:path/
+    title: page
   profile:
     output: true
     permalink: /profile/:path/
+    title: profile
   publishing:
     output: true
     permalink: /publishing/:path/
+    title: publishing
