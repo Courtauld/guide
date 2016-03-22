@@ -13,12 +13,10 @@ layout: default
 				<li>Profiles</li>
 				<li>Media</li>
 				<li>Publishing</li>
-
-
         {% for collection in site.collections %}
           <li><a class="page-link" href="{{ collection.url | prepend: site.baseurl }}">{{ collection.title }}</a></li>
         {% endfor %}
-
+                <!-- Collecitons listed above -->
 
         {% for my_page in site.pages %}
           {% if my_page.title %}
