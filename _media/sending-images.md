@@ -1,7 +1,6 @@
 ---
 title: Sending Images
 ---
-
 If you need to send images to anyone working on the website, please **attach** them to emails, or put them into a ZIP file, specifying in the email what the ZIP contains.
 
 Do not send images inside Word Documents or inside PDFs, these images cannot be properly uploaded to the website, and will not be high quality.
