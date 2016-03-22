@@ -5,10 +5,6 @@
 
 html {font-size: 16pt; padding:1rem;}
 
-.site-header {
-	margin: 1rem 1rem 0rem 1rem;
-}
-
 .site-header, main, .site-footer {display:flex; flex-direction: column;}
 .site-header div, #news, #guide-nav, .footer-col {flex: 1;}
 
