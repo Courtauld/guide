@@ -25,22 +25,22 @@ markdown: kramdown
 collections:
   event:
     output: true
-	permalink: /event/:path/
+    permalink: /event/:path/
   media:
     output: true
-	permalink: /media/:path/
+    permalink: /media/:path/
   navigation:
     output: true
-	permalink: /navigation/:path/
+    permalink: /navigation/:path/
   news:
     output: true
-	permalink: /news/:path/
+    permalink: /news/:path/
   page:
     output: true
-	permalink: /page/:path/
+    permalink: /page/:path/
   profile:
     output: true
-	permalink: /profile/:path/
+    permalink: /profile/:path/
   publishing:
     output: true
-	permalink: /publishing/:path/
+    permalink: /publishing/:path/
