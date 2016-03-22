@@ -27,3 +27,12 @@ layout: default
 		  </ul>
   		<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 	</section>
+
+
+
+{% for page in site.navigation %}
+      <article>
+        <a href="{{ page.permalink }}">{{ page.title }}</a>
+        <p>{{ page.content }}</p>
+      </article>
+{% endfor %}
