@@ -1,17 +1,8 @@
 ---
 layout: default
 ---
-	<section id="guide-nav">
-		<h1>Contents</h1>
-		<nav>
-			<ul>
-        {% for collection in site.collections %}
-          <li><a class="collection-link" href="{{ collection.permalink | prepend: site.baseurl }}">{{ collection.title }}</a></li>
-        {% endfor %}
-                <li><a class="collection-link" href="/glossary">Glossary</a></li>
-			</ul>
-		</nav>
-	</section>
+{{ include guide-contents.html }}
+
 	<section id="news">
         <h1 class="page-heading">Posts</h1>
         <ul class="post-list">
