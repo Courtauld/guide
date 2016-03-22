@@ -1,19 +1,16 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 title: Courtauld Website User Guide
-email: website@courtauld.ac.uk
 description: > # this means to ignore newlines until "baseurl:"
   This website is the online user guide for people editing The Courtauld's WordPress website.
+
+email: website@courtauld.ac.uk
+
 baseurl: "/guide" # the subpath of your site, e.g. /blog
 url: "http://courtauld.github.io" # the base hostname & protocol for your site
 
 permalink: pretty
+
+exclude: 'README.md'
 
 gems:
   - jekyll-sitemap
@@ -25,16 +22,22 @@ markdown: kramdown
 collections:
   navigation:
     output: true
-    permalink: '/:collection/:path/'
+    layout: page
   news:
     output: true
+    layout: page
   page:
     output: true
+    layout: page
   event:
     output: true
+    layout: page
   profile:
     output: true
+    layout: page
   media:
     output: true
+    layout: page
   publishing:
     output: true
+    layout: page
