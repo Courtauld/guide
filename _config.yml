@@ -23,10 +23,10 @@ markdown: kramdown
 
 # Collections
 collections:
-  event
+ - event
     output: true
 	permalink: /event/:path/
-  media
+ - media
     output: true
 	permalink: /media/:path/
   navigation
