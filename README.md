@@ -31,4 +31,4 @@ Previous versions of the documentation were made initially in Word, then in Goog
 * By storing the documentation online, we cut down on outdated printed guides.
 * Using the web means we can link to or from specific website pages or to video tutorials.
 * By being stored in plain text files, we will be able to migrate the documentation if necessary.
-..* This documentation can be served from The Courtauld's own servers, as well, or instead of, GitHub's, if necessary.
+* This documentation can be served from The Courtauld's own servers, as well, or instead of, GitHub's, if necessary.
