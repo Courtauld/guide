@@ -8,8 +8,8 @@ You can search all the Events by clicking Events on the left-hand menu. This pag
 |:---:|---|
 | Title | The Event Title |
 | Author | The user who created the **Event** |
-| Event Categories | Which categories the Event is listed under |
+| Event Categories | Which categories the **Event** is listed under |
 | Event Tags | Tags help people searching the site |
-| Date | This refers to the publication date, not the date of the event |
-| Recently Updated | This will list information about when and by whom the page was last updated |
-| SEO | This dot gives a colour-coded ranking of the quality of the Event's [Search Engine Optimisation](/glossary) |
+| Date | This refers to the publication date, not the date of the **Event** |
+| Recently Updated | This will list information about when and by whom the **Event** was last updated |
+| SEO | This dot gives a colour-coded ranking of the quality of the **Event**'s [Search Engine Optimisation](/glossary) |
