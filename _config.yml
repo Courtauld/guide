@@ -13,6 +13,10 @@ permalink: pretty
 # Build settings
 markdown: kramdown
 
+# Exclude from build
+
+exclude: posts
+
 # Collections
 collections:
   navigation:
