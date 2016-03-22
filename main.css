@@ -8,6 +8,8 @@ html {font-size: 16pt; padding:1rem;}
 	flex-direction: row;
 }
 
+#site-header>div {flex:1;}
+
 main {max-width: 48rem;}
 
 main, .site-footer {display:flex; flex-direction: column;}
