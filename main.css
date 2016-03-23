@@ -21,9 +21,10 @@ td{
 
 .site-header, .main-wrapper, .site-footer {display:flex; flex-direction: column;}
 .site-main, .site-aside {flex: 1;}
-.site-aside {order:1;}
 
 @media (min-width: 48rem) {
     body {max-width: 48rem; margin:0 auto;}
-	.site-header, .site-footer {flex-direction: row;}
+	.site-header, .site-footer {flex-direction: row-reverse;}
 }
+
+body {background:red;}
