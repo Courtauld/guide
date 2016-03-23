@@ -10,8 +10,7 @@ title: Navigation
     <p>{{ document.collection  }}</p>
     <p>{{ document.name  }}</p>
     <p>{{ document.title }}</p>
-    <p>{{ document.relative_path  }}</p>
-    <p>{{ document.url  }}</p>
+    <p>{{ document.url | remove_first:'/*/'  }}</p>
 
 </li>
 {% endfor %}
