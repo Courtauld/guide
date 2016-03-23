@@ -23,7 +23,7 @@ td{
         padding-right: 1em;
     }
 
-.main-wrapper {display:flex; flex-direction: column;}
+.main-wrapper {display:flex; flex-direction: column-reverse;}
 
 #site-nav ul li a {text-transform: capitalize;}
 
