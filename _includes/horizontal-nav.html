@@ -7,7 +7,7 @@
                         <ul class="pure-menu-children">
                             {% for file in collection.docs %}
                                 <li class="pure-menu-item">
-                                    <a href="guide/{{ file.url }}">{{ file.title }}</a>
+                                    <a href="{{ file.url | prepend: 'guide' }}">{{ file.title }}</a>
                                 </li>
                             {% endfor %}
                         </ul>
