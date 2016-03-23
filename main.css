@@ -19,8 +19,8 @@ td{
     border:1px solid #000000;
 }
 
-.l-box {
-        padding: 1em;
+.r-box {
+        padding-right: 1em;
     }
 
 .main-wrapper {display:flex; flex-direction: column;}
