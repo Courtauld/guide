@@ -1,0 +1,18 @@
+<nav class="pure-menu pure-menu-horizontal">
+    <ul class="pure-menu-list">
+        {% for collection in site.collections %}
+                {% unless collection.label == 'posts' %}
+                    <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+                        <a href="#" id="menuLink{% increment linkvar %}" class="pure-menu-link">{{ collection.label }}</a>
+                        <ul class="pure-menu-children">
+                            {% for file in collection.docs %}
+                                <li class="pure-menu-item">
+                                    <a href="guide/{{ file.url }}">{{ file.title }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                {% endunless %}
+        {% endfor %}
+    </ul>
+</nav>
