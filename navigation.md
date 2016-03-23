@@ -14,7 +14,7 @@ layout: default
 <div class="document-wrap">
 {% for document in site.navigation %}
 <article id="{{ document.title | slugify }}" class="test">
-    <h1>{{ document.title }}</h1>
+    <span>{{ collection.name }} &#8593;</span><h1>{{ document.title }}</h1>
     {{ document.content }}
 </article>
 {% endfor %}
