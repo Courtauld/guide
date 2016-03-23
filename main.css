@@ -22,6 +22,6 @@ td{
 .main-wrapper {display:flex; flex-direction: column;}
 
 @media (min-width:48rem) {
-    body {max-width:72rem;}
+    body {max-width: 48rem;}
     .main-wrapper {flex-direction: row-reverse;}
 }
