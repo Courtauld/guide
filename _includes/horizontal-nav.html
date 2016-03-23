@@ -3,7 +3,7 @@
         {% for collection in site.collections %}
                 {% unless collection.label == 'posts' %}
                     <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
-                        <a href="#" id="menuLink{% increment linkvar %}" class="pure-menu-link">{{ collection.label }}</a>
+                        <a href="{{ collection.label | prepend: "/" | prepend: site.baseurl | prepend: site.url }}" id="menuLink{% increment linkvar %}" class="pure-menu-link">{{ collection.label }}</a>
                         <ul class="pure-menu-children">
                             {% for file in collection.docs %}
                                 <li class="pure-menu-item">
