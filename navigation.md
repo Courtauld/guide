@@ -1,11 +1,12 @@
 ---
 title: Navigation
+layout: default
 ---
 
 <nav class="document-nav">
 <ul>
 {% for document in site.navigation %}
-<li><a href="#{{ document.title | slugify }}">{{ document.title }}</a>
+<li ><a href="#{{ document.title | slugify }}">{{ document.title }}</a>
 </li>
 {% endfor %}
 </ul>
