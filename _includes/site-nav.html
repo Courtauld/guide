@@ -1,7 +1,9 @@
 <nav id="site-nav" class="pure-menu pure-u-1 pure-menu-horizontal" role="navigation">
 	<ul class="pure-menu-list">
         {% for collection in site.collections %}
+                {% unless collection.label == 'posts' %}
             <li class="pure-menu-item"><a href="{{ collection.label | prepend: "/" | prepend: site.baseurl | prepend: site.url }}" class="pure-menu-link">{{ collection.label }}</a></li>
+            {% endunless %}
         {% endfor %}
         <li class="pure-menu-item"><a class="pure-menu-link" href="{{ site.baseurl | prepend: site.url }}/glossary">Glossary</a></li>
     </ul>
