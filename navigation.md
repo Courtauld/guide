@@ -7,6 +7,6 @@ title: Navigation
 <article>
 <h1>{{ document.title }}</h1>
 <p>{{ document.excerpt }}</p>
-<a href="{{ document.url }}">Link</a>
+<a href="{{ document.url | prepend: "/" | prepend: site.baseurl | prepend: site.url }}" class="pure-menu-link">Link</a>
 </article>
 {% endfor %}
