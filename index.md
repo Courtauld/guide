@@ -1,6 +1,6 @@
 ---
 title: About
----2
+---
 Our website, courtauld.ac.uk, uses WordPress as its Content Management System (CMS). WordPress controls every part of the website, and we use it to edit text, upload images, to change the layout of each page, and to reorganise the pages of the website.
 
 WordPress is used by 25% of all websites, so it's likely you will have seen it before. If you have trouble using it, many people will be able to help you, and there are plenty of guides and tutorials available online. Alternatively, the IT staff are very knowledgeable of the system, and will be able to solve any major issues you have.
