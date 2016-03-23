@@ -2,15 +2,16 @@
 title: Navigation
 layout: default
 ---
-
-<nav class="document-nav">
-<ul class="">
-{% for document in site.navigation %}
-<li class=""><a href="#{{ document.title | slugify }}" class="">{{ document.title }}</a>
-</li>
-{% endfor %}
-</ul>
+<nav class="pure-menu pure-menu-horizontal">
+    <ul class="pure-menu-list">
+        {% for document in site.navigation %}
+            <li class="pure-menu-item">
+                <a href="#{{ document.title | slugify }}">{{ doucment.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
 </nav>
+
 <div class="document-wrap">
 {% for document in site.navigation %}
 <article id="{{ document.title | slugify }}" class="test">
