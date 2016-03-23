@@ -11,7 +11,7 @@ title: Navigation
     <p>{{ document.name  }}</p>
     <p>{{ document.title }}</p>
     <p>{{ document.url | remove_first:'/*/'  }}</p>
-
+    <p>{{ document.url | remove_first:'/navigation/'  }}</p>
 </li>
 {% endfor %}
 </ul>
