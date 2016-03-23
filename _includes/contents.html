@@ -10,26 +10,19 @@
 
 <div class="pure-menu custom-restricted-width">
     <ul class="pure-menu-list">
-
         {% for collection in site.collections %}
-{% unless collection.label == 'posts' %}
-
-
-<li class="pure-menu-item pure-menu-has-children">
-            <a href="#" id="menuLink1" class="pure-menu-link"><h1>{{ collection.label }}</h1></a>
-            <ul class="pure-menu-children">
-                {% for file in collection.files %}
-
-                <li class="pure-menu-item">
-                    <a href="{{ file.path | remove: "_" }}">{{ file.path | remove: "_" }}</a>
-                </li>
-                {% endfor %}
-
-            </ul>
-        </li>
-
-{% endunless %}
-{% endfor %}
-
+                {% unless collection.label == 'posts' %}
+                    <li class="pure-menu-item pure-menu-has-children">
+                        <a href="#" id="menuLink1" class="pure-menu-link">{{ collection.label }}</a>
+                        <ul class="pure-menu-children">
+                            {% for file in collection.files %}
+                                <li class="pure-menu-item">
+                                    <a href="{{ file.path | remove: "_" }}">{{ file.path | remove: "_" }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                {% endunless %}
+        {% endfor %}
     </ul>
 </div>
