@@ -1,17 +1,14 @@
 ---
 title: Navigation
-layout: default
 ---
-<nav class="pure-menu pure-menu-horizontal">
-    <ul class="pure-menu-list">
-        {% for document in site.navigation %}
-            <li class="pure-menu-item">
-                <a href="#{{ document.title | slugify }}">{{ document.title }}</a>
-            </li>
-        {% endfor %}
-    </ul>
+<nav class="document-nav pure-menu">
+<ul class="pure-menu-list">
+{% for document in site.navigation %}
+<li class="pure-menu-item pure-u-1 pure-u-sm-1-2 pure-u-md-1-4"><a href="#{{ document.title | slugify }}" class="pure-menu-link">{{ document.title }}</a>
+</li>
+{% endfor %}
+</ul>
 </nav>
-
 <div class="document-wrap">
 {% for document in site.navigation %}
 <article id="{{ document.title | slugify }}" class="test">
