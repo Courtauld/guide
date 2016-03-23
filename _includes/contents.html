@@ -17,7 +17,7 @@
                         <ul class="pure-menu-children">
                             {% for file in collection.docs %}
                                 <li class="pure-menu-item">
-                                    <a href="{{ file.path | remove: "_" }}">{{ file.path | remove: "_" }}</a>
+                                    <a href="{{ file.url }}">{{ file.title }}</a>
                                 </li>
                             {% endfor %}
                         </ul>
