@@ -4,9 +4,9 @@ layout: default
 ---
 
 <nav class="document-nav">
-<ul>
+<ul class="pure menu pure-menu-horizontal">
 {% for document in site.navigation %}
-<li ><a href="#{{ document.title | slugify }}">{{ document.title }}</a>
+<li class="pure-menu-item"><a href="#{{ document.title | slugify }}" class="pure-menu-link">{{ document.title }}</a>
 </li>
 {% endfor %}
 </ul>
