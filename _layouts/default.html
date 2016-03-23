@@ -6,12 +6,12 @@
     <body>
 
         {% include header.html %}
-        <div class="pure-g">
-            <main class="pure-u-md-3-4" role="main">
+        <div class="pure-g main-wrapper">
+            <main class="pure-u-md-3-4 site-main" role="main">
                 {{ content }}
             </main>
 
-            <aside class="pure-u-md-1-4">
+            <aside class="pure-u-md-1-4 site-aside">
                 {% include contents.html %}
             </aside>
         </div>

@@ -19,8 +19,9 @@ td{
     border:1px solid #000000;
 }
 
-.site-header, main, .site-footer {display:flex; flex-direction: column;}
-.site-header div, #news, #guide-nav, .footer-col {flex: 1;}
+.site-header, .main-wrapper, .site-footer {display:flex; flex-direction: column;}
+.site-main, .site-aside {flex: 1;}
+.site-aside {order:1;}
 
 @media (min-width: 48rem) {
     body {max-width: 48rem; margin:0 auto;}
