@@ -31,3 +31,32 @@ td{
     body {max-width: 48rem; margin:0 auto;}
     .main-wrapper {flex-direction: row-reverse;}
 }
+
+
+/* Progressive enhancement app */
+
+			.document-nav ul {
+				display:flex;
+				flex-direction:row;
+				list-style-type:none;
+			}
+
+			.document-nav ul li {
+				flex-grow: 1;
+			}
+
+			.document-wrap > * {
+				display: none;
+			}
+
+			.document-wrap > *:last-child {
+				display: block;
+			}
+
+			.document-wrap > *:target {
+				display: block;
+			}
+
+			.document-wrap > *:target ~ * {
+			    display: none;
+			}
