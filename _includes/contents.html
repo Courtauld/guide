@@ -15,7 +15,7 @@
                     <li class="pure-menu-item pure-menu-has-children">
                         <a href="#" id="menuLink1" class="pure-menu-link">{{ collection.label }}</a>
                         <ul class="pure-menu-children">
-                            {% for file in collection.files %}
+                            {% for file in collection.docs %}
                                 <li class="pure-menu-item">
                                     <a href="{{ file.path | remove: "_" }}">{{ file.path | remove: "_" }}</a>
                                 </li>
