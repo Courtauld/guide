@@ -3,10 +3,10 @@ title: publishing
 layout: default
 ---
 
-<nav class="document-nav">
-<ul class="">
+<nav class="document-nav pure-menu">
+<ul class="pure-menu-list">
 {% for document in site.publishing %}
-<li class=""><a href="#{{ document.title | slugify }}" class="">{{ document.title }}</a>
+<li class="pure-menu-item"><a href="#{{ document.title | slugify }}" class="pure-menu-link">{{ document.title }}</a>
 </li>
 {% endfor %}
 </ul>
