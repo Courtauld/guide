@@ -25,6 +25,8 @@ td{
 
 .main-wrapper {display:flex; flex-direction: column;}
 
+#site-nav ul li a {text-transform: capitalize;}
+
 @media (min-width:48rem) {
     body {max-width: 48rem; margin:0 auto;}
     .main-wrapper {flex-direction: row-reverse;}
