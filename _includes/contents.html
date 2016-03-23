@@ -3,6 +3,8 @@
 	<ul class="pure-menu-list">
         {% for collection in site.collections %}
             <li class="pure-menu-item"><a href="{{ collection.label | prepend: "/" | prepend: site.baseurl | prepend: site.url }}" class="pure-menu-link">{{ collection.label }}</a></li>
+
+            {{ collection.docs }}
         {% endfor %}
         <li class="pure-menu-item"><a class="pure-menu-link" href="{{ site.baseurl | prepend: site.url }}/glossary">Glossary</a></li>
     </ul>
@@ -20,14 +22,6 @@
             <ul class="pure-menu-children">
                 <li class="pure-menu-item"><a href="#" class="pure-menu-link">Autos</a></li>
                 <li class="pure-menu-item"><a href="#" class="pure-menu-link">Flickr</a></li>
-                <li class="pure-menu-item pure-menu-has-children">
-                    <a href="#" id="menuLink1" class="pure-menu-link">Even More</a>
-                    <ul class="pure-menu-children">
-                        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Foo</a></li>
-                        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Bar</a></li>
-                        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Baz</a></li>
-                    </ul>
-                </li>
             </ul>
         </li>
     </ul>
