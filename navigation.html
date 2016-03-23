@@ -6,7 +6,7 @@ layout: default
     <ul class="pure-menu-list">
         {% for document in site.navigation %}
             <li class="pure-menu-item">
-                <a href="#{{ document.title | slugify }}">{{ doucment.title }}</a>
+                <a href="#{{ document.title | slugify }}">{{ document.title }}</a>
             </li>
         {% endfor %}
     </ul>
