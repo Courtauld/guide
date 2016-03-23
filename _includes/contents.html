@@ -8,12 +8,12 @@
     </ul>
 </nav>
 
-<div class="pure-menu custom-restricted-width">
+<nav class="pure-menu pure-menu-horizontal">
     <ul class="pure-menu-list">
         {% for collection in site.collections %}
                 {% unless collection.label == 'posts' %}
                     <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
-                        <a href="#" id="menuLink1" class="pure-menu-link">{{ collection.label }}</a>
+                        <a href="#" id="menuLink{% increment linkvar %}" class="pure-menu-link">{{ collection.label }}</a>
                         <ul class="pure-menu-children">
                             {% for file in collection.docs %}
                                 <li class="pure-menu-item">
@@ -25,4 +25,4 @@
                 {% endunless %}
         {% endfor %}
     </ul>
-</div>
+</nav>
