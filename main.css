@@ -60,3 +60,5 @@ td{
 			.document-wrap > *:target ~ * {
 			    display: none;
 			}
+
+.pure-menu-list {flex-wrap: wrap;}
