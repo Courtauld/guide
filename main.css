@@ -19,6 +19,10 @@ td{
     border:1px solid #000000;
 }
 
+.l-box {
+        padding: 1em;
+    }
+
 .main-wrapper {display:flex; flex-direction: column;}
 
 @media (min-width:48rem) {
