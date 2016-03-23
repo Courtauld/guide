@@ -1,18 +1,9 @@
-<nav class="pure-menu custom-restricted-width">
-    <ul class="pure-menu-list">
+<nav id="site-nav" class="pure-menu pure-u-1" role="navigation">
+    <span class="pure-menu-heading">Contents</span>
+	<ul class="pure-menu-list">
         {% for collection in site.collections %}
-                {% unless collection.label == 'posts' %}
-                    <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
-                        <a href="{{ collection.label | prepend: "/" | prepend: site.baseurl | prepend: site.url }}" id="menuLink{% increment linkvar %}" class="pure-menu-link">{{ collection.label }}</a>
-                        <ul class="pure-menu-children">
-                            {% for file in collection.docs %}
-                                <li class="pure-menu-item">
-                                    <a href="{{ file.title  }}">{{ file.title }}</a>
-                                </li>
-                            {% endfor %}
-                        </ul>
-                    </li>
-                {% endunless %}
+            <li class="pure-menu-item"><a href="{{ collection.label | prepend: "/" | prepend: site.baseurl | prepend: site.url }}" class="pure-menu-link">{{ collection.label }}</a></li>
         {% endfor %}
+        <li class="pure-menu-item"><a class="pure-menu-link" href="{{ site.baseurl | prepend: site.url }}/glossary">Glossary</a></li>
     </ul>
 </nav>
