@@ -8,7 +8,7 @@ title: Navigation
 <h1>
 <a href="{{ document.url | prepend: site.baseurl | prepend: site.url }}">{{ document.title }}</a>
 </h1>
-    <div id="{{ document.name }}" class="test">
+    <div id="{{ document.title }}" class="test">
         {{ document.content }}
     </div>
 </article>
