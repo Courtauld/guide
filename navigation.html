@@ -4,7 +4,7 @@ title: Navigation
 <nav class="document-nav pure-menu">
 <ul class="pure-menu-list">
 {% for document in site.navigation %}
-<li class="pure-menu-item pure-u-1 pure-u-sm-1-2 pure-u-md-1-2"><a href="#{{ document.title }}" class="pure-menu-link">{{ document.title }}</a>
+<li class="pure-menu-item pure-u-1 pure-u-sm-1-2 pure-u-md-1-2"><a href="#{{ document.title | slugify }}" class="pure-menu-link">{{ document.title }}</a>
 </li>
 {% endfor %}
 </ul>
