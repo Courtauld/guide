@@ -73,7 +73,7 @@ td{
 
     nav {display:none;}
 
-    footer {page-break-before: always;}
+    footer {page-break-before: auto;}
 
     p a:after {
         content: " (" attr(href) ")";
