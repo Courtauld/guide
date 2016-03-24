@@ -73,6 +73,8 @@ td{
 
     nav {display:none;}
 
+    footer {page-break-before: always;}
+
     p a:after {
         content: " (" attr(href) ")";
         font-size: 80%;
