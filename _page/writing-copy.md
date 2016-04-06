@@ -2,18 +2,19 @@
 title: Writing Copy
 ---
 Most editing is done inside text boxes.
+
 ## Copying and Pasting
 
 Sometimes, copying and pasting text from Word, Emails, or from PDFs will cause problems with the website. This is because it also copies some of the formatting code from these documents, as well as the written text.
 
 1. After copying and pasting, highlight the text and click the Clear Formatting button, with the eraser icon.
-* You will need to re-add any formatting, this time using the Text Editor controls. Use to style guide to see how bold, italic, and heading text should be used.
+    * You will need to re-add any formatting, this time using the Text Editor controls. Use to style guide to see how bold, italic, and heading text should be used.
 
 Alternatively:
 1. Change to the Plain Text Editor by clicking the Text button in the top right.
 2. Paste the text into the Plain Text Editor.
 3. Click Visual to return to the Visual Text Editor.
-* You will need to re-add any formatting, this time using the Text Editor controls.
+    * You will need to re-add any formatting, this time using the Text Editor controls.
 
 ## Links
 
