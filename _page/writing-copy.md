@@ -11,6 +11,7 @@ Sometimes, copying and pasting text from Word, Emails, or from PDFs will cause p
     * You will need to re-add any formatting, this time using the Text Editor controls. Use to style guide to see how bold, italic, and heading text should be used.
 
 Alternatively:
+
 1. Change to the Plain Text Editor by clicking the Text button in the top right.
 2. Paste the text into the Plain Text Editor.
 3. Click Visual to return to the Visual Text Editor.
