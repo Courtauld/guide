@@ -2,19 +2,14 @@
 title: Single Page
 ---
 {% for collection in site.collections %}
-  {% capture label %}{{ collection | first }}{% endcapture %}
+    {% capture label %}{{ collection | first }}{% endcapture %}
     <section>
-        <h1>'{{ label}}'</h1>
-
-  {% for doc in site.collections.[label].docs %}
-    <article>
-        <h1>{{ doc.title }}</h1>
-        {{ doc.content }}
-    </article>
-  {% endfor %}
+        <h1>{{ label }}</h1>
+        {% for doc in site.collections.[label].docs %}
+            <article>
+                <h1>{{ doc.title }}</h1>
+                {{ doc.content }}
+            </article>
+        {% endfor %}
     </section>
 {% endfor %}
-
-<hr/>
-
-{{ site.documents }}
